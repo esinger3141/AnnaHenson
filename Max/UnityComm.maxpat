@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 610.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 796.0, 302.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-16",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 150.0, 141.0, 22.0 ],
+					"patching_rect" : [ 142.0, 150.0, 141.0, 35.0 ],
 					"style" : "",
-					"text" : "Unity says: Got the color"
+					"text" : "Unity says: Got the color!!"
 				}
 
 			}
@@ -68,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.0, 75.0, 19.0, 20.0 ],
-					"presentation_rect" : [ 514.0, 105.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "B"
 				}
@@ -81,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 75.0, 19.0, 20.0 ],
-					"presentation_rect" : [ 451.0, 105.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "G"
 				}
@@ -125,7 +124,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.0, 105.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 453.0, 139.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
